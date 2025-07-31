@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TSLA Stock Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/lightweight-charts@4.1.1/dist/lightweight-charts.standalone.production.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/css/datepicker.min.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>TSLA Stock Dashboard</h1>
+    <div class="controls">
+      <input type="text" id="fromDate" placeholder="From Date" />
+      <input type="text" id="toDate" placeholder="To Date" />
+      <button id="replayBtn">▶️ Replay</button>
+    </div>
+    <div id="chart" class="chart"></div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/js/datepicker-full.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
